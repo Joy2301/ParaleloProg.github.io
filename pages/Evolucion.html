@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Introspect by TEMPLATED</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="index.html" class="logo">ParaleloProg</a>
+
+			<nav>
+				<ul>
+					<li><a href="/index.html">Inicio</a></li>
+					<li>
+						<a href="/index.html">Conceptos</a>
+						<ul>
+							<li><a href="/pages/Evolucion.html">Evolucion</a></li>
+							<li><a href="/pages/Arquitectura.html">Arquitecturas</a></li>
+							<li><a href="/pages/Tecnicas.html">Tecnicas</a></li>
+							<li><a href="/pages/Aplicaciones.html">Aplicaciones</a></li>
+						</ul>
+					</li>
+					<li><a href="/pages/Referencias.html">Referencias</a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+	<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+	<!-- Banner -->
+	<section id="banner">
+		<div class="inner">
+			<h1>PRINCIPALES ARQUITECTURAS DE SOPORTE</h1>
+		</div>
+	</section>
+
+	<!-- One -->
+	<section id="one">
+		<div class="inner">
+			<header>
+				<h2>Evolución de la Programación Paralela</h2>
+			</header>
+			<h3>Introducción</h3>
+			<p>La programación paralela ha experimentado una evolución significativa a lo largo de los años para
+				aprovechar el potencial de los sistemas con múltiples núcleos y aceleradores. A continuación, se
+				presentan algunas etapas importantes en esta evolución:</p>
+
+			<h3>1. Procesamiento en serie</h3>
+			<p>En sus inicios, la programación se basaba en modelos de procesamiento secuencial, donde las instrucciones
+				se ejecutaban una tras otra en un único procesador. Esto limitaba la capacidad de aprovechar el poder de
+				cómputo de los sistemas paralelos.</p>
+
+			<h3>2. Programación concurrente</h3>
+			<p>A medida que los sistemas se volvieron más complejos, surgió la necesidad de programación concurrente,
+				donde múltiples tareas se ejecutan en paralelo. Se introdujeron técnicas como hilos (threads) y procesos
+				para gestionar la concurrencia y aprovechar los recursos disponibles.</p>
+
+			<h3>3. Programación paralela a nivel de memoria compartida</h3>
+			<p>Con el advenimiento de los sistemas con múltiples núcleos en una sola CPU, se desarrollaron enfoques de
+				programación paralela a nivel de memoria compartida. Esto permitió a los desarrolladores aprovechar los
+				hilos y las primitivas de sincronización para ejecutar tareas en paralelo dentro de un solo procesador.
+			</p>
+
+			<h3>4. Programación paralela a nivel de memoria distribuida</h3>
+			<p>Con el aumento de la disponibilidad de sistemas distribuidos y clústeres de computadoras, se hizo
+				necesaria la programación paralela a nivel de memoria distribuida. Se introdujeron bibliotecas y
+				estándares como MPI (Message Passing Interface) para permitir la comunicación y coordinación entre
+				múltiples nodos de procesamiento.</p>
+
+			<h3>5. Programación paralela heterogénea</h3>
+			<p>En los últimos años, ha surgido un enfoque de programación paralela heterogénea, que aprovecha diferentes
+				tipos de procesadores y aceleradores en un sistema, como CPUs y GPUs. Se han desarrollado bibliotecas y
+				modelos de programación como CUDA, OpenCL y SYCL para aprovechar el poder de estos dispositivos.</p>
+
+			<h3>6. Programación paralela en la nube</h3>
+			<p>Con el crecimiento de la computación en la nube, la programación paralela también se ha extendido a
+				entornos en la nube. Se han desarrollado marcos de trabajo y plataformas que permiten ejecutar
+				aplicaciones paralelas en infraestructuras distribuidas y escalables.</p>
+
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<section id="footer">
+		<div class="inner">
+			<header>
+				<h2>Get in Touch</h2>
+			</header>
+			<form method="post" action="#">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="alt" /></li>
+				</ul>
+			</form>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/skel.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
